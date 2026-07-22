@@ -1,0 +1,49 @@
+# Virtual Environment
+venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/
+
+# Model Checkpoints (Optional)
+# Uncomment if you DON'T want to upload trained models
+# models/*.pkl
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
